@@ -9,8 +9,19 @@
 		extra-scalaVersion="2.9.2"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
-		date="20130817203159"/>
+		date="20130829175846"/>
 	<dependencies>
+		<module organisation="com.typesafe.sbt" name="sbt-start-script">
+			<revision name="0.9.0" status="release" pubdate="20130805090523" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="true" searched="true" default="false" conf="default(compile), compile" position="14">
+				<metadata-artifact status="successful" details="" size="2120" time="486" location="/Users/shin_i_wang/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbt/sbt-start-script/ivy-0.9.0.xml" searched="true" original-local-location="/Users/shin_i_wang/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbt/sbt-start-script/ivy-0.9.0.xml.original" origin-is-local="false" origin-location="http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml"/>
+				<caller organisation="default" name="default-9c4470" conf="test, compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
+				<artifacts>
+					<artifact name="sbt-start-script" type="jar" ext="jar" status="successful" details="" size="63687" time="878" location="/Users/shin_i_wang/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbt/sbt-start-script/jars/sbt-start-script-0.9.0.jar">
+						<origin-location is-local="false" location="http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/jars/sbt-start-script.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="io.spray" name="sbt-revolver">
 			<revision name="0.6.2" status="release" pubdate="20121015132957" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" homepage="http://github.com/spray/sbt-revolver" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="13">
 				<license name="Apache License 2.0" url="https://github.com/spray/sbt-revolver/raw/master/LICENSE"/>
@@ -138,7 +149,7 @@
 			</revision>
 		</module>
 		<module organisation="default" name="default-743492">
-			<revision name="0.0" status="integration" pubdate="20130817203140" resolver="inter-project" artresolver="inter-project" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+			<revision name="0.0" status="integration" pubdate="20130829175839" resolver="inter-project" artresolver="inter-project" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="default" name="default-9c4470" conf="test, compile, runtime" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
 				<artifacts>

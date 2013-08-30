@@ -326,6 +326,40 @@
 [0m[[0mdebug[0m] [0m	checking io.spray#sbt-revolver;0.6.2 from sbt-plugin-releases against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: io.spray#sbt-revolver;0.6.2 from sbt-plugin-releases[0m
 [0m[[0mdebug[0m] [0m	found io.spray#sbt-revolver;0.6.2 in sbt-plugin-releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-9c4470;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbt#sbt-start-script;0.9.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.typesafe.sbt#sbt-start-script;0.9.0[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-start-script;0.9.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-start-script;0.9.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.sbt#sbt-start-script;0.9.0: tried /Users/shin_i_wang/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbt/sbt-start-script/ivy-0.9.0.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.sbt#sbt-start-script;0.9.0: tried /Users/shin_i_wang/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbt/sbt-start-script/ivy-0.9.0.xml[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: resource not reachable for com.typesafe.sbt#sbt-start-script;0.9.0: res=http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.sbt#sbt-start-script;0.9.0[0m
+[0m[[0mdebug[0m] [0msbt-plugin-releases: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.sbt#sbt-start-script;0.9.0: tried /Users/shin_i_wang/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbt/sbt-start-script/ivy-0.9.0.xml[0m
+[0m[[0mdebug[0m] [0m	 trying http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: found md file for com.typesafe.sbt#sbt-start-script;0.9.0[0m
+[0m[[0mdebug[0m] [0m		=> http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml (0.9.0)[0m
+[0m[[0mdebug[0m] [0m	parser = ivy parser[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.sbt#sbt-start-script;0.9.0: tried /Users/shin_i_wang/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbt/sbt-start-script/ivy-0.9.0.xml[0m
+[0m[[0mdebug[0m] [0mdownloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		to /Users/shin_i_wang/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbt/sbt-start-script/ivy-0.9.0.xml.original.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml: checking...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/59/59NY37EyGO8NtosJLrHY4k+++TI/-Tmp-/ivytmp8662759805766471066sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.sbt#sbt-start-script;0.9.0!ivy.xml(ivy.original) (486ms)[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for com.typesafe.sbt#sbt-start-script;0.9.0; parsed=com.typesafe.sbt#sbt-start-script;0.9.0[0m
+[0m[[0mdebug[0m] [0m	checking com.typesafe.sbt#sbt-start-script;0.9.0 from sbt-plugin-releases against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: com.typesafe.sbt#sbt-start-script;0.9.0 from sbt-plugin-releases[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.sbt#sbt-start-script;0.9.0 in sbt-plugin-releases[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-9c4470;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-9c4470;0.1-SNAPSHOT of rootConf=runtime[0m
@@ -498,6 +532,8 @@
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-9c4470;0.1-SNAPSHOT->io.spray#sbt-revolver;0.6.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of io.spray#sbt-revolver;0.6.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-9c4470;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbt#sbt-start-script;0.9.0 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-9c4470;0.1-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-9c4470;0.1-SNAPSHOT of rootConf=test[0m
@@ -673,6 +709,8 @@
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-9c4470;0.1-SNAPSHOT->io.spray#sbt-revolver;0.6.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of io.spray#sbt-revolver;0.6.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-9c4470;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbt#sbt-start-script;0.9.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-9c4470;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-9c4470;0.1-SNAPSHOT of rootConf=provided[0m
@@ -2149,6 +2187,8 @@
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-9c4470;0.1-SNAPSHOT->io.spray#sbt-revolver;0.6.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of io.spray#sbt-revolver;0.6.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-9c4470;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbt#sbt-start-script;0.9.0 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-9c4470;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-9c4470;0.1-SNAPSHOT of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
@@ -3141,6 +3181,8 @@
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-9c4470;0.1-SNAPSHOT->io.spray#sbt-revolver;0.6.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of io.spray#sbt-revolver;0.6.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-9c4470;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbt#sbt-start-script;0.9.0 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-9c4470;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-9c4470;0.1-SNAPSHOT of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
@@ -3322,6 +3364,8 @@
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#default-9c4470;0.1-SNAPSHOT->io.spray#sbt-revolver;0.6.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of io.spray#sbt-revolver;0.6.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-9c4470;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.sbt#sbt-start-script;0.9.0 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-9c4470;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-9c4470;0.1-SNAPSHOT of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
@@ -4151,7 +4195,7 @@
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#default-9c4470;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mloadData of default#default-9c4470;0.1-SNAPSHOT of rootConf=pom[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 53[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 54[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-743492;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.2 / Number of dependencies = 6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#main;0.12.2 / Number of dependencies = 12[0m
@@ -4386,6 +4430,13 @@
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#sbt-revolver depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : io.spray#sbt-revolver;0.6.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbt#sbt-start-script;0.9.0 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#sbt;0.12.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#io;0.12.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#logging;0.12.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#process;0.12.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbt#sbt-start-script;0.9.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.ensime#ensime-sbt-cmd;0.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.json4s#json4s-native_2.9.2;3.2.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.json4s#json4s-core_2.9.2;3.2.2[0m
@@ -4452,32 +4503,42 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/shin_i_wang/Desktop/JuanPablo/software/scala_example/project/target/resolution-cache/default/default-9c4470/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(doc)[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.pom[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(doc)[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.pom[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(doc)[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.pom[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(doc)[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.pom[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(doc)[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.pom[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(doc)[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.pom[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-743492;0.0!default-743492.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.orrsella#sbt-sublime;1.0.5!sbt-sublime.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2!sbteclipse-plugin.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#sbt-revolver;0.6.2!sbt-revolver.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/jars/sbt-start-script.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/jars/sbt-start-script.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/jars/sbt-start-script.jar ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/jars/sbt-start-script.jar[0m
+[0m[[0mdebug[0m] [0m		to /Users/shin_i_wang/.ivy2/cache/scala_2.9.2/sbt_0.12/com.typesafe.sbt/sbt-start-script/jars/sbt-start-script-0.9.0.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/jars/sbt-start-script.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/jars/sbt-start-script.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/59/59NY37EyGO8NtosJLrHY4k+++TI/-Tmp-/ivytmp6180243012048215233sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.9.2/sbt_0.12/0.9.0/jars/sbt-start-script.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.sbt#sbt-start-script;0.9.0!sbt-start-script.jar (878ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ensime#ensime-sbt-cmd;0.1.1!ensime-sbt-cmd.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json4s#json4s-native_2.9.2;3.2.2!json4s-native_2.9.2.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json4s#json4s-core_2.9.2;3.2.2!json4s-core_2.9.2.jar[0m
@@ -4554,8 +4615,8 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.2!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.2!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1410ms :: artifacts dl 83ms[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 14[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7454ms :: artifacts dl 993ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 15[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-743492;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
@@ -4604,8 +4665,11 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : io.spray#sbt-revolver;0.6.2 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : io.spray#sbt-revolver;0.6.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbt#sbt-start-script;0.9.0 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbt#sbt-start-script;0.9.0[0m
 [0m[[0mdebug[0m] [0m	report for default#default-9c4470;0.1-SNAPSHOT compile produced in /Users/shin_i_wang/Desktop/JuanPablo/software/scala_example/project/target/resolution-cache/reports/default-default-9c4470/compile-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 14[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 15[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-743492;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
@@ -4654,8 +4718,11 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : io.spray#sbt-revolver;0.6.2 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : io.spray#sbt-revolver;0.6.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbt#sbt-start-script;0.9.0 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbt#sbt-start-script;0.9.0[0m
 [0m[[0mdebug[0m] [0m	report for default#default-9c4470;0.1-SNAPSHOT runtime produced in /Users/shin_i_wang/Desktop/JuanPablo/software/scala_example/project/target/resolution-cache/reports/default-default-9c4470/runtime-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 14[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 15[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-743492;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
@@ -4704,6 +4771,9 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : io.spray#sbt-revolver;0.6.2 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : io.spray#sbt-revolver;0.6.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbt#sbt-start-script;0.9.0 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbt#sbt-start-script;0.9.0[0m
 [0m[[0mdebug[0m] [0m	report for default#default-9c4470;0.1-SNAPSHOT test produced in /Users/shin_i_wang/Desktop/JuanPablo/software/scala_example/project/target/resolution-cache/reports/default-default-9c4470/test-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 41[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.2 / Number of dependencies = 6[0m
@@ -4943,7 +5013,7 @@
 [0m[[0mdebug[0m] [0m	report for default#default-9c4470;0.1-SNAPSHOT provided produced in /Users/shin_i_wang/Desktop/JuanPablo/software/scala_example/project/target/resolution-cache/reports/default-default-9c4470/provided-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for default#default-9c4470;0.1-SNAPSHOT optional produced in /Users/shin_i_wang/Desktop/JuanPablo/software/scala_example/project/target/resolution-cache/reports/default-default-9c4470/optional-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 53[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 54[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-743492;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.2 / Number of dependencies = 6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#main;0.12.2 / Number of dependencies = 12[0m
@@ -5188,6 +5258,13 @@
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#sbt-revolver depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : io.spray#sbt-revolver;0.6.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbt#sbt-start-script;0.9.0 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#sbt;0.12.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#io;0.12.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#logging;0.12.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#process;0.12.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbt#sbt-start-script;0.9.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#sbt;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#main;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#actions;0.12.2[0m
@@ -5228,7 +5305,7 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_8_2;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_10_0;0.12.2[0m
 [0m[[0mdebug[0m] [0m	report for default#default-9c4470;0.1-SNAPSHOT compile-internal produced in /Users/shin_i_wang/Desktop/JuanPablo/software/scala_example/project/target/resolution-cache/reports/default-default-9c4470/compile-internal-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 14[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 15[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-743492;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
@@ -5277,8 +5354,11 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : io.spray#sbt-revolver;0.6.2 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : io.spray#sbt-revolver;0.6.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbt#sbt-start-script;0.9.0 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbt#sbt-start-script;0.9.0[0m
 [0m[[0mdebug[0m] [0m	report for default#default-9c4470;0.1-SNAPSHOT runtime-internal produced in /Users/shin_i_wang/Desktop/JuanPablo/software/scala_example/project/target/resolution-cache/reports/default-default-9c4470/runtime-internal-resolved.xml[0m
-[0m[[0mdebug[0m] [0mNbr of module to sort : 53[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 54[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-743492;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.2 / Number of dependencies = 6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#main;0.12.2 / Number of dependencies = 12[0m
@@ -5523,6 +5603,13 @@
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  io.spray#sbt-revolver depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : io.spray#sbt-revolver;0.6.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.sbt#sbt-start-script;0.9.0 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#sbt;0.12.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#io;0.12.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#logging;0.12.2[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#process;0.12.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbt#sbt-start-script;0.9.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#sbt;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#main;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#actions;0.12.2[0m
@@ -5571,5 +5658,5 @@
 [0m[[0mdebug[0m] [0m	report for default#default-9c4470;0.1-SNAPSHOT docs produced in /Users/shin_i_wang/Desktop/JuanPablo/software/scala_example/project/target/resolution-cache/reports/default-default-9c4470/docs-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for default#default-9c4470;0.1-SNAPSHOT pom produced in /Users/shin_i_wang/Desktop/JuanPablo/software/scala_example/project/target/resolution-cache/reports/default-default-9c4470/pom-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1410ms resolve - 83ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (7454ms resolve - 993ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

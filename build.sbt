@@ -1,3 +1,5 @@
+import com.typesafe.sbt.SbtStartScript
+
 name := "example"
 
 version := "1.0"
@@ -10,6 +12,8 @@ resolvers ++= Seq(
 )
 
 seq(Revolver.settings: _*)
+
+seq(SbtStartScript.startScriptForClassesSettings: _*)
 
 libraryDependencies ++= Seq(
 	"com.typesafe.akka" %% "akka-actor" % "2.1.0",
