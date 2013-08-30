@@ -14,6 +14,6 @@ object Boot extends App with SprayCanHttpServerApp {
   val port = Option(System.getenv("PORT")).getOrElse("8080").toInt
 
   // create a new HttpServer using our handler tell it where to bind to
-  newHttpServer(service) ! Bind(interface = host, port = port
+  newHttpServer(service) ! Bind(interface = host, port = port)
 
 }
