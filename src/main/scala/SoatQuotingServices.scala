@@ -60,24 +60,17 @@ trait DemoService extends HttpService {
 		    	case None => " Sorry, there is no tarif for you in this moment :( "
 		    }
 
-		    //println(prima)
-		    //println(contribucion) 
-
-		    //println("prima: "+ prima + " / contribucion: " + contribucion)
-
-
 		    val item = Item(
 		      URI.create(selfuri),
 		      List(
-          		ValueProperty("tipo-vehiculo", Some("Tido de vehiculo"), Some(StringValue("Autos Familiares"))),
-		        ValueProperty("modelo", Some("Modelo"), Some(NumberValue(modelo))),
-		        ValueProperty("cilindraje", Some("Cilindraje"), Some(NumberValue(cilindraje))),
-		        ValueProperty("prima", Some("Prima"), Some(NumberValue(prima))),
-		        ValueProperty("contribucion", Some("Contribucion"), Some(NumberValue(contribucion)))
+          		ValueProperty("tipo-vehiculo", None, Some(StringValue("Autos Familiares"))),
+		        ValueProperty("modelo", None, Some(NumberValue(modelo))),
+		        ValueProperty("cilindraje", None, Some(NumberValue(cilindraje))),
+		        ValueProperty("prima", None, Some(NumberValue(prima))),
+		        ValueProperty("contribucion", None, Some(NumberValue(contribucion)))
 		      ),
 		      List(
 		        Link(URI.create("http://examples.org/blogs/jdoe"), "blog", Some("Blog")),
-		        //Link(URI.create("http://examples.org/images/jdoe"), "avatar", Some("Avatar"), None, Some(Render.IMAGE))
 		        Link(URI.create("http://examples.org/images/jdoe"), "avatar", Some("Avatar"), Some(Render.IMAGE))
 		      )
 		    )
