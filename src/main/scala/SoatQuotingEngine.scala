@@ -45,8 +45,8 @@ object TarifaSoat{
 	  def cilindrajes3 = (2500,100000)	
 
 	  def tarifas1 = (146933,73467)
-	  //def tarifas2 = (179200,89600)
-	  def tarifas2 = (777,777)
+	  def tarifas2 = (179200,89600)
+	  //def tarifas2 = (777,777)
 	  def tarifas3 = (209467,104733)
 	  def tarifas4 = (195067,97533)
 	  def tarifas5 = (223000,111500)

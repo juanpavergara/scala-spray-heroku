@@ -4,6 +4,7 @@ package co.com.soat.tarifa
 import akka.actor.Actor
 import spray.routing._
 import spray.http._
+import spray.http.Uri
 import MediaTypes._
 
 import co.com.soat.tarifa.TarifaSoat._
@@ -12,6 +13,7 @@ import net.hamnaberg.json.collection._
 import net.hamnaberg.json.collection.Value._
 //import net.hamnaberg.json._
 import java.net.URI
+
 
 import org.json4s._
 import org.json4s.JsonDSL._
@@ -39,58 +41,67 @@ trait DemoService extends HttpService {
   //implicit def executionContext = actorRefFactory.dispatcher
 
   val mydomain = "www.soatapi.co"
-  val questionmark = "?"
 
   val demoRoute = {
-    get {
-      path("tarifasoat"/"AutosFamiliares"){
 
-      	  val pathuri = mydomain + "/tarifasoat/AutosFamiliares"
-      	
-      	  parameters('modelo.as[Int], 'cilindraje.as[Int]){ (modelo, cilindraje) =>
+  	val urid = extract(_.request.uri)
+
+  	urid { urip =>
+  		get {
+  			path("tarifasoat" / "AutosFamiliares"){ 
+      	  		
+      	  		parameters('modelo.as[Int], 'cilindraje.as[Int]){ (modelo, cilindraje) =>
+		    		
+		    		println("uri: " + urip)
+
+		    		val uris = urip.toString
+
+      	  			var prima = 0
+      	  			var contribucion = 0
+
+		    		tarifarClase5(cilindraje,modelo) match {
+		    			case Some(s) => {
+		    				prima = s._1
+		    				contribucion = s._2
+		    			}
+		    			case None => " Sorry, there is no tarif for you in this moment :( "
+		    		}
+
+		    		val item = Item(
+		    			URI.create(uris),
+		      			List(
+		      				ValueProperty("tipo-vehiculo", None, Some(StringValue("Autos Familiares"))),
+		        			ValueProperty("modelo", None, Some(NumberValue(modelo))),
+		        			ValueProperty("cilindraje", None, Some(NumberValue(cilindraje))),
+		        			ValueProperty("prima", None, Some(NumberValue(prima))),
+		        			ValueProperty("contribucion", None, Some(NumberValue(contribucion)))
+		      			),
+		      			List(
+		      				Link(URI.create("http://examples.org/blogs/jdoe"), "blog", Some("Blog")),
+		        			Link(URI.create("http://examples.org/images/jdoe"), "avatar", Some("Avatar"), Some(Render.IMAGE))
+		      			)
+		    		)
 		    
-		    val selfuri = pathuri + "?" + "modelo=" + modelo + "&" + "cilindraje=" + cilindraje
-
-      	  	var prima = 0
-      	  	var contribucion = 0
-
-		    tarifarClase5(cilindraje,modelo) match {
-		    	case Some(s) => { prima = s._1
-		    					  contribucion = s._2 }
-		    	case None => " Sorry, there is no tarif for you in this moment :( "
-		    }
-
-		    val item = Item(
-		      URI.create(selfuri),
-		      List(
-          		ValueProperty("tipo-vehiculo", None, Some(StringValue("Autos Familiares"))),
-		        ValueProperty("modelo", None, Some(NumberValue(modelo))),
-		        ValueProperty("cilindraje", None, Some(NumberValue(cilindraje))),
-		        ValueProperty("prima", None, Some(NumberValue(prima))),
-		        ValueProperty("contribucion", None, Some(NumberValue(contribucion)))
-		      ),
-		      List(
-		        Link(URI.create("http://examples.org/blogs/jdoe"), "blog", Some("Blog")),
-		        Link(URI.create("http://examples.org/images/jdoe"), "avatar", Some("Avatar"), Some(Render.IMAGE))
-		      )
-		    )
-		    
-		    val links = List(
-		      Link(URI.create("http://example.org/friends/rss"), "feed"),
-		      Link(URI.create("http://example.org/friends/?queries"), "queries"),
-		      Link(URI.create("http://example.org/friends/?template"), "template")
-		    )
+		    		// Armar una lista de enlaces para la collection
+		    		// Esto es un ejemplo pues no se necesita en este caso y no se usara en el collection
+		    		val links = List(
+		    			Link(URI.create("http://example.org/friends/?queries"), "queries"),
+		      			Link(URI.create("http://example.org/friends/?template"), "template")
+		    		)
 			
-		    val collection = JsonCollection(Version.ONE, URI.create(selfuri), links, List(item), Nil, None, None)
-		    val collectionJson = collection.toJson
+		    		val collection = JsonCollection(Version.ONE, URI.create(uris), List(), List(item), Nil, None, None)
+		    		val collectionJson = collection.toJson
 		    
-      	    println("==================== pretty(render(collectionJson)) ==========================")
-			val prettyjson = pretty(render(collectionJson))
+      	    		println("==================== pretty(render(collectionJson)) ==========================")
+					val prettyjson = pretty(render(collectionJson))
 
-			println(prettyjson)
-      	    complete(prettyjson)
-      	  }      	
-	  }
+					println(prettyjson)
+      	    		complete(prettyjson)
+      	  		} 
+      		
+        } 
+	}
 	}
   }
+
 }
