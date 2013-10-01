@@ -27,7 +27,7 @@ _sbt clean compile stage_
 ##Ejecución
 
 ###Local
-
+_heroku create_
 _foreman start_ 
 
 ###Heroku
